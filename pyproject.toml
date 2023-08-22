@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "clairvoyance"
+version = "0.1.0"
+description = "A data extracting and validating web app. Extracts the data from images using Tesseract OCR."
+authors = ["bitsima <betulse42@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.101.1"
+redis = "^5.0.0"
+Pillow = "^10.0.0"
+pytesseract = "^0.3.10"
+dynaconf = "^3.2.1"
+filetype = "^1.2.0"
+python-multipart = "^0.0.6"
+pre-commit = "^3.3.3"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.0"
+
+[build-system]
+requires = ["poetry-core>=1.7.0"]
+build-backend = "poetry.core.masonry.api"
