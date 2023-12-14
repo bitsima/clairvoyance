@@ -1,0 +1,64 @@
+Phone Number
+905418924567  // 12
+5418924567 // 10
+05418924567 // 11
+
+ID Number (türkiye için)
+ilk rakam 0 olamaz
+
+1,2,3,4,5,6,7,8,9 ve 10. sayıların toplamının 10'a göre modu (10'a bölümünden kalan) 11. rakamı sağlar.
+
+11 haneli son rakamı çift sayı olan sayı // türk vatandaşları
+11 haneli 99 ile başlayan sayı // yabancı kimlik no
+
+Credit card
+luhn's algorithm -> right to left every other number double alıp topla, kalanları da ekle mod 10 al. sıfırsa valid
+
+Plate id (türkiye için)
+12 a 1234
+12 a 12345
+12 ab 123
+12 ab 1234
+12 abc 12
+12 abc 123
+
+date
+https://docs.oracle.com/cd/E41183_01/DR/Date_Format_Types.html
+
+email
+r"(^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$)"
+
+hash
+spaceleri yok etmeden bak
+[r"^[0-9a-f]{32}$", r"^[0-9a-f]{40}$", r"^[0-9a-f]{64}$"]
+
+domain
+^[a-zA-Z0-9\-]+(?:\[[^\]]*\])?(?:\[?\.\]?[a-zA-Z0-9\-]+)+$s SUBDOMAIN YOK
+
+url
+^(?:(?:h(?:tt|xx)p[s]?|ftp)\[?:\]?\/\/)\/?(?:[^:\/\s]+)(?:\/\w+)*\/?(?:[\w\-\.]+[^#?\s]+)(?:.*)?(?:#[\w\-]+)?$ OLMADI
+
+COMBOLIST
+
+501 298 2345
+0 501 298 2345
+90 501 298 2345
++90 501 298 2345
++90 501 298 23 45
+90 501 298 23 45
+0 501 298 23 45
+501 298 23 45
++905012982345
+905012982345
+05012982345
++90-501-298-2345
+90-501-298-2345
+0-501-298-2345
+501-298-2345
++90-501-298-23-45
+90-501-298-23-45
+0-501-298-23-45
+501-298-23-45
+0501-298-2345
+0501 298 2345
+0501 298 23 45

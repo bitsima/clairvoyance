@@ -3,10 +3,6 @@
 settings_template.yaml
 .env.template
 
-*.jpg
-*.png
-*.tiff
-
 .gitignore
 README.md
 

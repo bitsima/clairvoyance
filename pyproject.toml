@@ -14,7 +14,8 @@ pytesseract = "^0.3.10"
 dynaconf = "^3.2.1"
 filetype = "^1.2.0"
 python-multipart = "^0.0.6"
-pre-commit = "^3.3.3"
+uvicorn = "^0.23.2"
+validators = "^0.21.2"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^7.4.0"
