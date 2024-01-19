@@ -1,16 +1,16 @@
 # Clairvoyance
 A data extracting and validating web app. Extracts the data from images using Tesseract OCR.
 The app "extracts" the following types of data from images through regex, and then "validates" them:
-``` ->phone numbers
-    ->id numbers
-    ->credit card numbers
-    ->plate ids
-    ->dates
-    ->emails
-    ->domains
-    ->urls
-    ->hashes
-    ->combolists
+```->phone numbers
+->id numbers
+->credit card numbers
+->plate ids
+->dates
+->emails
+->domains
+->urls
+->hashes
+->combolists
 ```
 
 The successful JSONResponse is of the form:
