@@ -1,4 +1,4 @@
-from fastapi import APIRouter, UploadFile, BackgroundTasks
+from fastapi import APIRouter, UploadFile
 from fastapi.responses import JSONResponse
 from fastapi import HTTPException
 
