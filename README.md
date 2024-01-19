@@ -34,5 +34,5 @@ In order to run the containers, do: <br>
 By default the app works on localhost:8000 and the url for the upload endpoint is ```http://localhost:8000/api/v1/upload/```. <br>
 You can upload all image formats Tesseract OCR is compatible with. The endpoint's content type needs to be multipart/form-data. <br>
 
-It is advised to use POSTMAN to upload the images to the url but you can also use curl to upload files the following way: <br>
+It is advised to use POSTMAN to upload the images but you can also use curl to upload files the following way: <br>
 ```curl -X POST "http://localhost:8000/api/v1/upload/" -H  "accept: application/json" -H  "Content-Type: multipart/form-data" -F "file=@test.png;type=image/jpeg"```
